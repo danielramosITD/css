@@ -4,6 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="./css/style.css">
+	<style> #internal{
+		background-color: yellow;
+	}
+	.internal{
+		color:grey;
+	}
+</style>
 </head>
 <body>
 	<!-- inline css -->
@@ -15,13 +22,13 @@
 	<!-- internal css -->
 	<div id="internal">
 		<p>'normal' text here</p>
-		<p style="color:red", class="internal">  'highlight' text here</p>
+		<p class="internal">  'highlight' text here</p>
 	</div>
 
 	<!-- external css -->
 	<div id="external">
 		<p>'normal' text here</p>
-		<p style="color:red", class="external">  'highlight' text here</p>
+		<p class="external">  'highlight' text here</p>
 	</div>
 
 </body>

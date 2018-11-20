@@ -1,0 +1,22 @@
+.one p:first-child{
+	color:green;
+}
+
+article p:last-child{
+	color : blue;
+}
+
+table{
+	border-collapse: collapse;
+	border:3px solid black;
+}
+
+td,tr{
+	border:1px solid black;
+}
+tr:nth-child(odd){
+	background-color: lightgrey;
+}
+tr:nth-child(even){
+	background-color: grey;
+}
