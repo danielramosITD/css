@@ -1,0 +1,69 @@
+#eistein:before{
+	color:grey;
+	content:"Quotes: ";
+}
+
+#eistein:after{
+	color:grey;
+	content:"\21E2 | Albert Eistein (You can't copy this)";
+}
+
+#first{
+	background-color: lightgreen;
+	margin: 0;
+	border: 2px solid lightblue;
+	padding: 10px;
+	text-align: left;
+}
+
+
+#second{
+	background-color: lightgreen;
+	margin: 0;
+	border: 4px solid blue;
+	padding: 20px;
+	text-align: center;
+}
+
+#third{
+	background-color: lightgreen;
+	margin: 0;
+	border: 8px solid darkblue;
+	padding: 20px;
+	text-align: right;
+}
+
+input{
+	width:19%;
+	box-sizing: border-box;
+	margin: 3px;
+	border: 2px dashed lightgreen;
+	padding: 10px;	
+}
+input:nth-of-type(3){
+	border: 4px dashed green;
+}
+
+div{
+	
+	height: 100px;
+	background-color: lightgrey;
+}
+
+span{
+	background-color: lightgreen;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;	
+	border: 3px dashed skyblue;
+	line-height: 100px;
+
+}
+
+a{
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+
+}

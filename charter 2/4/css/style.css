@@ -1,0 +1,31 @@
+@import "_borderbox.css";
+
+div{
+	font-size: 32px;
+	background-color: lightgreen;
+	width:50%;
+	margin: 0 auto;
+	text-align: center;
+	border: dashed blue 10px;
+}
+
+a{
+	font-family: arial;
+	font-size: 42px;
+	text-transform: uppercase;
+	text-decoration: overline;
+	font-weight: 700;
+
+}
+
+li{
+	list-style-type: square;
+	float: right;
+	width:200px;
+}
+
+ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}

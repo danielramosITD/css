@@ -1,0 +1,41 @@
+/* 親愛なる佐藤さん、日本語のキーボードを使わないでください */
+
+li{
+	font-family: Arial, sans-serif;
+	font-size: 1.5em; 
+	/* display: inline; */
+	float:  left ;
+}
+
+h1{
+	clear: both;
+	text-align: center;
+	background-color: yellow;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	background:tomato;
+	border:1px solid green;
+	padding:20px;
+}
+
+a:hover{
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+ul::after { 
+  content: "";
+  display: block; 
+  clear: both;
+}
+
+
+

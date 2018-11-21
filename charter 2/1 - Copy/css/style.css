@@ -1,0 +1,26 @@
+ul{
+	padding:0px;
+}
+
+a{
+	text-decoration:none;
+	color:grey;
+}
+
+li{
+	/*display: inline-block;*/
+	float: left;
+	width: 25%;
+	background-color: yellow;
+	border:1px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:black;
+	cursor:progress;
+}
+
