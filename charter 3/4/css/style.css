@@ -11,6 +11,7 @@
     position: relative;
     left: 50px;
     z-index: 300;
+    border:1px dashed darkred;
 }
 
 .box2{
@@ -18,6 +19,7 @@
     position: relative;
     top: 50px;
     z-index: 200;
+    border:1px dashed darkgreen;
 }
 
 .box3{
@@ -26,4 +28,5 @@
     top: 100px;
     right: 50px;
     z-index: 100;
+    border:1px dashed darkblue;
 }
