@@ -1,0 +1,29 @@
+.box{
+    width:100px;
+    height: 100px;
+    display:inline-block;
+    line-height: 100px;
+    text-align: center;
+}
+
+.box1{
+    background-color: tomato;
+    position: relative;
+    left: 50px;
+    z-index: 300;
+}
+
+.box2{
+    background-color: lightgreen;
+    position: relative;
+    top: 50px;
+    z-index: 200;
+}
+
+.box3{
+    background-color: lightblue;
+    position: relative;
+    top: 100px;
+    right: 50px;
+    z-index: 100;
+}

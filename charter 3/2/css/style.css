@@ -1,0 +1,31 @@
+.box{
+    width:50px;
+    height:60px;
+    background: lightblue;
+    margin-bottom: 10px;
+}
+
+.box:nth-of-type(3){
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.relative{
+    position:relative;
+    left:40px;
+    top:10px;
+}
+
+.parent{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    left: 150px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+}

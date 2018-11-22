@@ -1,0 +1,42 @@
+*{
+    margin: 0px 3%;
+    padding: 0px;
+}
+
+a{
+    font-size: 32px;
+    text-decoration: none;
+
+
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    width: 18%;
+    text-align: center;
+
+
+}
+
+nav{
+    position:sticky;
+    top:0px;
+    background:rgba(0,0,0,0.4);
+    line-height: 42px;
+    height: 42px;
+    
+}
+
+nav::after{
+    content:"";
+    display: block;
+    clear:both;
+    margin-bottom: 25px;
+
+}
+
+p{
+    text-align: justify;
+}
+
