@@ -14,7 +14,7 @@
 
 .box2{
     background-color: red;
-    position: relative;
+    
     right: 45px;
     z-index: 200;
     border-radius: 50%;
