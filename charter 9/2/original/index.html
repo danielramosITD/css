@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+		Log in
+	</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div>
+	<h2>Please enter your username and password</h2>
+
+  <form action="/action_page.php">
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" class="" placeholder="your email..">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" class="" placeholder="your password..">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script>
+document.getElementsByTagName("input")[2].addEventListener("click", function(event){
+	if(document.getElementById('email').value != "saygin.guven@gmail.com" && document.getElementById('password').value != "12345"){
+		document.getElementsByTagName("input")[0].classList.add('check')
+		document.getElementsByTagName("input")[1].classList.add('check')
+	} else{
+		document.getElementsByTagName("input")[0].classList.add('correct');
+		document.getElementsByTagName("input")[1].classList.add('correct');
+	}
+	event.preventDefault()
+});
+</script>
+
+</body>
+</html>

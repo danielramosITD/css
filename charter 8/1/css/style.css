@@ -1,0 +1,70 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+
+.topnav {
+	background-color: rgba(49,49,49,0.7);
+	height:40px;
+	position: relative;
+	list-style-type: none;
+	font-size: 25px;
+	font-family:arial;
+	/*cursor:circle;*/
+
+	
+}	
+
+.topnav li a{
+	
+	text-decoration: none;
+	color: lightgrey;
+	margin: 6px 40px 0px 15px;
+}
+
+.topnav li{
+	display:inline;
+}
+
+.icon{
+	position :absolute;
+	top: 0px;
+	right: 0px;
+	display:none;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,255,0,0.3), rgba(49,49,49,0.1)), url("../images/nature.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	
+}
+
+.afterNav h1{
+	line-height: 100vh;
+	text-align: center;
+	font-size: 8em;
+	text-shadow: 5px 5px 1px tomato;
+	color:white;
+	font-family: 'Open Sans';
+
+}
+
+.nextPart{
+	background: white;
+	float:left;
+
+}
+
+@media screen and (max-width: 576px) {
+	li:not(.icon){
+		display:none;
+	}	
+	.icon{
+		display:block;
+	}
+}

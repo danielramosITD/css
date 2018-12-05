@@ -1,0 +1,35 @@
+#cats ul{
+    padding: 0;
+}
+
+#cats li{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    list-style-type: none; 
+}
+
+#cats li img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#cats li a{
+    color: #333;
+    text-decoration: none;
+    float: left;
+}
+
+
+@media screen and (max-width: 768px){
+    #cats li{
+        width: 46%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    #cats li{
+        width: 92%;
+    }
+}

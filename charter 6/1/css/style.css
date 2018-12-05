@@ -1,0 +1,189 @@
+p{
+    color:red;
+    transition-property: color;
+    transition-duration:5s;
+    transition-timing-function: linear;
+
+}
+
+p:hover{
+    color:black;
+
+}
+
+.what {
+    text-align: center;
+}
+
+button{
+    font-size: 33px;
+    color:tomato;
+    background-color: lightgrey;
+    height: 90px;
+    width: 170px;
+    border-radius: 10%;
+    transition:color 1s, background 1s, width 1s, height 1s, font-size 1s;
+    
+}
+
+button:hover{
+    font-size: 53px;
+    color:lightgrey;
+    background-color:tomato;
+    height: 150px;
+    width:270px;    
+    
+}
+
+.myBox{
+    margin-left:0%;
+    height: 100px;
+    width:100px;
+    background-color: red;
+    margin-bottom: 2px;
+}
+
+.box{
+    margin-left:0%;
+    height: 100px;
+    width:100px;
+    background-color: lightgreen;
+    margin-bottom: 2px;
+}
+
+.myBox:hover ~ .box1{
+    width:100%;
+    transition:width 5s linear;
+}
+.myBox:hover ~ .box2{
+    width:100%;
+    transition:width 5s ease;
+}
+.myBox:hover ~ .box3{
+    width:100%;
+    transition:width 5s ease-in;
+}
+.myBox:hover ~ .box4{
+    width:100%;
+    transition:width 5s ease-out;
+}
+
+
+.animat{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name:pushRight;
+    animation-duration:5s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes bounce {
+    0%{margin-top:100px;}
+    25%{margin-top:200px;}
+    50%{margin-top:400px;}
+    75%{margin-top:200px;}
+    100%{margin-top:100px;}
+
+}    
+
+@keyframes pushRight {
+    0%{margin-left:100px;}
+    10%{margin-left:150px;}
+    20%{margin-left:200px;}
+    30%{margin-left:400px;}
+    40%{margin-left:400px;}
+    50%{margin-left:400px;}
+    60%{margin-left:400px;}
+    70%{margin-left:400px;}
+    80%{margin-left:200px;}
+    90%{margin-left:150px;}
+    100%{margin-left:100px;}
+
+}    
+
+.animatBox{
+    position: fixed;
+    bottom:0px;
+    right: 0px;
+    height: 300px;
+    width: 200px;
+    border-radius: 5%;
+    border:2px solid black;
+    background-color: lightgrey;
+    animation-name:moveTheBox;
+    animation-duration:2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+
+}
+
+
+@keyframes moveTheBox {
+    0%{
+        right:50px;
+        bottom: 50px;
+    }
+    10%{
+        right:10px;
+        bottom: 10px;
+    }
+    20%{
+        right:50px;
+        bottom: 50px;
+    }
+    30%{
+        right:45px;
+        bottom: 45px;
+    }
+    40%{
+        right:15px;
+        bottom: 15px;
+    }
+    50%{
+        right:40px;
+        bottom: 40px;
+    }
+    60%{
+        right:50px;
+        bottom: 50px;
+    }
+    70%{
+        right:0px;
+        bottom: 0px;
+    }
+    80%{
+        right:0px;
+        bottom: 0px;
+    }
+    90%{
+        right:0px;
+        bottom: 0px;
+    }
+    100%{
+        right:0px;
+        bottom: 0px;
+    }
+    }
+
+#rota{
+    height: 100vh;
+    width: 200px;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: #b4a9f9;
+    transition:1s all ease;
+    line-height: 100vh;
+    color:white;
+    font-size:50px;
+    text-align: center;
+
+   
+}
+
+#rota:hover {
+    transform:rotate(360deg);
+}

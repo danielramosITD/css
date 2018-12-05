@@ -29,8 +29,8 @@
 	position: absolute;
 	right: 0px;
 	top:0px;
-	/*	margin-top: 7%;
-*/}
+	
+}
 
 #mid{
 	position: relative;
@@ -47,7 +47,7 @@
 
 	background-color: #820203;
 	
-	padding: 0% 15%;
+	padding: 0% 14%;
 	color:lightgrey;
 	box-sizing: border-box;
 
@@ -101,10 +101,8 @@ a{
 
 article {
     float: left;
-    max-width: 20%;
-/*    overflow: auto; */
-    
-min-height: 500px;
+    max-width: 19%;
+	min-height: 500px;
     padding: 20px;
 
    
@@ -133,6 +131,9 @@ h1{
 }
 h2{
 	font-size: 32px;
+}
+h3{
+	margin-left: 1%;
 }
 p{
 	font-size: 22px;

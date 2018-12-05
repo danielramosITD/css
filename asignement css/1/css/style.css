@@ -1,0 +1,69 @@
+body { }
+
+
+td { }
+
+body{
+	background-image: url("../images/fondo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.links a:visited {
+color:none;
+ }
+
+.links p {
+	font:22px calibri;
+	color:darkblue;
+	background-color: darkred;
+	text-align: center;
+}
+
+.links a:hover {
+border:4px dashed darkgreen;
+border-radius: 10%;
+background:darkblue;
+color:yellow;
+font:32px calibri ;
+ }
+
+.links a:link {
+text-decoration: none;
+ }
+
+.links a:active {
+	font:46px arial;
+	text-decoration: underline;
+ }
+
+footer{
+	position: relative;
+	
+
+}
+
+/*.buttomAll{
+	: none;
+}*/
+
+.butt{
+	border-radius:5%;
+	background:linear-gradient(red, blue, yellow, green, orange);
+	height: 90px;
+	width: 500px
+
+}
+
+
+#fixedImg{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 500px;
+	min-height: 120px;
+
+}

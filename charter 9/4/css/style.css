@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Calibri;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #3E514F; 
+  color: white;
+}
+
+.warning{
+  widht:100%;
+  height: 50px;
+  background-color: #f4c842;
+  font-size: 120%;
+  text-align: center;
+  position:relative;
+
+}
+
+.x{
+  position:absolute;
+  top:0px;
+  right:0px;
+  margin: 0px;
+  padding: 0px 0px 2px 0px;
+  border:2px solid black;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+
+
+}
+
+nav{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+}
+
+article{
+  width: 80%;
+  margin:0 auto;
+  text-align: justify;
+}
+h1,h2{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+h1{
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+p{
+  padding: 20px;
+  margin-bottom: 5rem;
+}
+
+.coffeIcon{
+  text-align: center;
+}
+
+section::after {
+  content: "";
+  display: block;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+section:nth-child(1)::after {
+  height: 25rem;
+  background-image: url('../images/nathan-dumlao-607604-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+section:nth-child(2)::after {
+  height: 25rem;
+  background-image: url("../images/ola-mishchenko-606865-unsplash.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+}
+section:nth-child(3)::after {
+  height: 35rem;
+  background-image: url("../images/nathan-dumlao-290152-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2:last-of-type{
+  margin-top: 0px;
+  padding-top: 3rem
+}
+
+p:last-of-type{
+  margin-bottom: 0px;
+  padding-bottom: 5rem;
+}
+
+section:nth-child(4){
+  background: #303338;
+  color: #ddd;
+}
+
+footer{
+  background-color: #eee;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

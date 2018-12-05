@@ -1,0 +1,61 @@
+
+.modalButton{
+	background-color: green;
+}
+
+.modalButton:hover{
+	background-color: white;
+	border-color: green;
+	cursor:pointer;
+}
+
+.modalParent{
+	background-color: rgba(0,0,0,0.9);
+	width:100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	left:0;
+	top:0;
+	display:none;
+
+
+
+}
+
+.modalChild{
+	background-color: skyblue;
+	border: 2px dashed green;
+	padding: 0px 20px 40px;
+	width:70%;
+	height: 20%;
+	margin:200px auto;
+	position: relative;
+	
+}
+
+.closeButton{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.closeButton:hover{
+	cursor:pointer;
+}
+
+.theBall{
+	width:20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	animation-name: ball;
+	animation-duration: 3s;
+
+
+}
+
+@keyframes ball{
+	0% {transform: translateX(7px); border:2px solid red; }
+
+	100% { transform: translateX(500px); border:2px solid red; }
+}
