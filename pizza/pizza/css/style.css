@@ -1,0 +1,189 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../images/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	
+
+}
+
+head{
+	position: relative;
+	
+ }
+
+.logo{
+	width: 120px;
+	height: 140px;
+	position: absolute;
+	top:0px;
+	right:0px;
+
+ 
+}
+
+.list {
+
+	margin:0 0 0 10px ;
+	padding:30px 0 0 0;
+	background: linear-gradient( #003300 0%, #008000 50%, lightyellow 100%);
+	opacity: 0.8;
+	background-attachment: fixed;
+	width: 110px;
+	height: 100VH;
+
+
+	
+
+}
+
+.list a{
+	display:block;
+	font-weight: bold;
+	font-size:100% ;
+	text-decoration: none;
+	color: lightyellow;
+	border: 3px solid darkblue;
+	background: linear-gradient( blue 0%, red 50%, yellow 100%);
+	opacity: 0.5;
+	font-family: calibri;
+	width: 100px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin:100% 0 0 0;
+	padding: 10px 0 0 0;
+
+
+}
+
+
+.list a:hover {
+	cursor: url(http://cur.cursors-4u.net/toons/too-1/too60.ani), url(http://cur.cursors-4u.net/toons/too-1/too60.png), auto !important;
+	opacity: 1;
+}
+
+.ball{
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border:2px solid darkred;
+	border-radius: 100%;
+	animation-duration: 5s;
+	animation
+}
+
+.list a:active{
+	
+	cursor: url(http://cur.cursors-4u.net/food/foo-2/foo165.cur), auto !important;
+}
+
+
+.home__ball{
+	top:75px;
+	left:120px;
+	animation-name: home__ball__animation;
+	display:none;
+}
+
+.menu__ball{
+	top:173px;
+	left:120px;
+	animation-name: menu__ball__animation;	
+	display:none;
+}
+
+.story__ball{
+	top:273px;
+	left:120px;
+	animation-name: story__ball__animation;
+	display:none;
+}
+
+.contact__ball{
+	top:373px;
+	left:120px;
+	animation-name: contact__ball__animation;
+	display:none;
+}
+
+.others__ball{
+	top:473px;
+	left:120px;
+	animation-name: others__ball__animation;
+	display:none;
+}
+
+
+@keyframes home__ball__animation{
+from {background-color: red; top:75px; left:120px;}
+  to {background-color: green; top:50%; left:50%;}
+}
+
+@keyframes menu__ball__animation{
+from {background-color: red; top:173px; left:120px;}
+  to {background-color: green; top:50%; left:50%;}
+}
+
+@keyframes story__ball__animation{
+from {background-color: red; top:273px; left:120px;}
+  to {background-color: green; top:50%; left:50%;}
+}
+
+@keyframes contact__ball__animation{
+from {background-color: red; top:373px; left:120px;}
+  to {background-color: green; top:50%; left:50%;}
+}
+
+@keyframes others__ball__animation{
+from {background-color: red; top:473px; left:120px;}
+  to {background-color: green; top:50%; left:50%;}
+}
+
+/*.home__date{
+	position: 0px center;
+}
+
+.home__img{
+	background-image: url("../images/vancouver.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*background-attachment: fixed;*/
+
+/*}*/
+
+
+footer{
+	width: 100%;
+	height: 20px;
+	position:fixed;
+	bottom:0px;
+	background-color: black;
+
+}
+footer p{
+	text-align: center;
+	color :white;
+}
+
+@media screen and (max-width: 768px){
+    .fondo{
+        width: 46%;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .fondo{
+        width: 92%;
+    }
+}

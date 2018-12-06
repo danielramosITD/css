@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Calibri;
+}
+
+.topContainer{
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(rgba(219, 76, 216,0.1), rgba(219, 76, 216,0.3)),url('../images/kal-loftus-1169715-unsplash.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+
+.topContainer__header{
+	text-align: center;
+	position: absolute;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.topContainer__header__title{
+	color: #d8d14b;
+	font-size: 5rem;
+}
+
+.topContainer__header__body{
+	color: #d8d14b;
+	font-size: 1.2rem;
+}
+
+.topContainer__cat{
+  position: absolute;
+  height: 318px;
+  width: 100%;
+  background-image: url('../images/cat2.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  bottom: -295px;
+  /* transform: translateY(-50%); */
+  /* opacity: .7; */
+}
+
+		
+.custom{
+	width: 80%;
+	margin:  0 auto;
+	height: 300px;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.custom h2{
+	margin: 20px auto;
+	text-decoration: underline;
+}
+
+
+.products{
+	height: 600px;
+	background-color: rgba(219, 76, 216,0.2);
+	padding: 90px 0px 50px 0px;
+
+}
+
+
+.products article{
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	transform: translateX(10px);
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+
+article.showPictures{
+	transform: translateX(-10px);
+	opacity: 1;
+}
+
+
+
+article p{
+	width: 200px;
+}
+
+.image{
+	margin: 0px 50px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.image1{
+	background-image: url('../images/boot1.jpg');
+	background-repeat: no-repeat;
+}
+
+.image__details2{
+	order: 2;
+}
+.image2{
+	background-image: url('../images/boot2.jpg');
+	background-repeat: no-repeat;
+	order: 1;
+}
+
+.image3{
+	background-image: url('../images/boot3.jpg');
+ 	background-repeat: no-repeat;
+
+}
+
+footer{
+	height: 50vh;
+	background-color: black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p{
+	color: white;
+}

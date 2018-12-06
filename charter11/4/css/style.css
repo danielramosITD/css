@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.banner{
+	position: relative;
+	top: 0px;
+	width: 640px;
+	height: 426px;
+	margin: 0 auto;
+	/* background-color: #eee; */
+	overflow: hidden;
+
+
+	/* for different size images overflow should be hidden */
+	
+}
+
+.images{
+	position: absolute;
+	top: 0px;
+	/* background-size: cover; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+.image1{
+	background-image: url('../images/capilano-suspension-bridge-1393076_640.jpg');
+}
+
+.image2{
+	background-image: url('../images/hockey-team-3311629_640.jpg');
+}
+.image3{
+	background-image: url('../images/kayaks-2728181_640.jpg');
+}
+/* .image4{
+	background-image: url('../images/snow-2111976_640.jpg');
+}
+.image5{
+	background-image: url('../images/soap-bubble-1958650_640.jpg');
+}
+.image6{
+	background-image: url('../images/totem-pole-50437_640.jpg');
+} */
